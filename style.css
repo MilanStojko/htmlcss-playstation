@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ms_sony{
+    background-color: black;
+    height: 50px;
+}
+.ms_logo_sony{
+    width: 120px;
+}
+.bi-chevron-compact-down{
+    font-size: 0.8rem;
+}
+.ms_accedi{
+    border-radius: 30px !important;
+}
