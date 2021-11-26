@@ -3,6 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+.spacer{
+    margin-bottom: 40px;
+}
+.m-6{
+    margin-bottom: 6rem !important;
+}
+.spacer2{
+    margin-bottom: 80px;
+}
 .ms_sony{
     background-color: black;
     height: 50px;
@@ -13,6 +22,57 @@
 .bi-chevron-compact-down{
     font-size: 0.8rem;
 }
-.ms_accedi{
+.ms_button{
     border-radius: 30px !important;
+}
+.w-30{
+    width: 30%;
+}
+.jumbotron{
+    background-image: url(img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    min-height: 700px;
+}
+.maxwidth{
+    max-width: 60% !important;
+    width: 60% !important;
+}
+.c363636{
+    background-color: #363636 !important;
+}
+.ccd3d0f{
+    background-color: #cd3d0f !important;
+}
+.cblu{
+    color: blue;
+}
+.jumbotron2{
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    min-height: 700px;
+}
+.c1f1f1f{
+    background-color: #1f1f1f;
+}
+.cbebcbb{
+    background-color: #bebcbb;
+}
+.soulstorm{
+    background-image: url(img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.c161c3b{
+    background-color: #161c3b;
+}
+.avengers{
+    background-image: url(img/ps-now-april-featured-image-block.png);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
