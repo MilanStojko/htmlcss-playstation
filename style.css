@@ -23,7 +23,12 @@
     font-size: 0.8rem;
 }
 .ms_button{
+    border: white 2px solid !important;
     border-radius: 30px !important;
+
+}
+.ms_button:hover{
+    box-shadow: inset #888888 0 0 0 4px !important;
 }
 .w-30{
     width: 30%;
@@ -81,4 +86,35 @@
 }
 .globe{
     width: 1.2rem;
+}
+div ul a{
+    text-decoration: none;
+    color: white;
+}
+div ul{
+    list-style: none;
+}
+.attivo,
+div a.inactive{
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
+.attivo,
+div a:hover{
+    opacity: 1;
+}
+.active{
+    border-bottom: blue 3px solid;
+}
+.img_active{
+    border: 3px white solid;
+    border-radius: 15px;
+    box-shadow: blue 0 0 0 3px;
+}
+.img_hover:hover{
+    transform: translateY(-15px);
+}
+.b_radius{
+    border-radius: 15px;
 }
