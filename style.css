@@ -3,8 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+.marginmain{
+    margin-top: 125px;
+}
 .spacer{
     margin-bottom: 40px;
+}
+.cwhite{
+    background-color: white;
 }
 .m-6{
     margin-bottom: 6rem !important;
@@ -117,4 +123,49 @@ div a:hover{
 }
 .b_radius{
     border-radius: 15px;
+}
+/*Navbar del demonio*/
+.opacity-hover:hover{
+    filter: opacity(1);
+    transition: 1s;
+}
+.box-shadow-hover:hover{
+    box-shadow: 2px 2px 15px black;
+    transition: 1s;
+}
+.box-shadow-button-hover:hover{
+    box-shadow: 2px 2px 15px grey;
+    transition: 1s;
+}
+.transform-hover:hover{
+    transform: translateY(-8%);
+}
+.blue-color-hover:hover{
+    color:  #0086ff!important;
+}
+.menu-toogle-show:hover img:nth-child(3){
+    display: inline-block !important;
+    
+}
+.menu-toogle-none:hover img:nth-child(2){
+    display: none !important;
+}
+.nav-link img:nth-child(3) {
+    transform: scaleY(-1);
+}
+.show>.upside_arrow{
+    display: inline-block!important;
+}
+.show>.normal_arrow{
+    display: none !important;
+}
+.show>.nav-title-link{
+    color:  #0086ff!important;
+}
+.normal_arrow,
+.upside_arrow{
+    width: 15px;
+}
+.lens_img{
+    width: 40px;
 }
